@@ -19,7 +19,7 @@ Set database credential in common/config.php
 and folder path (if localhost) in tempalte/header.php 
 
 
-Youtube Tutorial : https://youtu.be/EotH1z5Lb1I
+Youtube Tutorial : https://youtu.be/HPm-7UUGqtE
 
 Youtube Channel : https://www.youtube.com/channel/UC2Q4oWfoMQzi6AES8Vb2vQw?view_as=subscriber
 
