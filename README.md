@@ -12,6 +12,11 @@ in Member Area How the member can login register and buy products and can see th
 
 The Front end is represented to display products & its related data.
 
+Database : ecommerce.sql
+
+Set database credential in common/config.php
+
+and folder path (if localhost) in tempalte/header.php 
 
 
 Youtube Tutorial : https://youtu.be/EotH1z5Lb1I
