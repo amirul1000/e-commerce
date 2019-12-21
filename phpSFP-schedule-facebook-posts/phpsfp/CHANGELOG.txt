@@ -1,0 +1,426 @@
+phpsfp - v.1.9.7 - 19 Nov 2017
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.6 - 4 Apr 2017
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.5 - 18 Dec 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.4 - 16 May 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.3 - 18 April 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.2 - 18 January 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9.1 - 12 January 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.9 - 10 January 2016
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.8 - 17 October 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.7.1 - 15 July 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.7 - 13 July 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6.5 - 12 July 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6.4 - 9 July 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6.3 - 11 June 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6.2 - 07 May 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6.1 - 20 April 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/
+
+
+phpsfp - v.1.6 - 20 April 2015
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+If you want to compare versions please use http://winmerge.org/ because there are many new/changed files.
+
+
+phpsfp - v.1.5.5 - 30 september 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/libraries/facebook - facebook.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - groupsm.php
+
+
+phpsfp - v.1.5.4 - 11 september 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/views/sections - schedule.php
+
+
+phpsfp - v.1.5.3 - 9 september 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+
+
+phpsfp - v.1.5.2 - 7 september 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/controllers - users.php
+phpsfp/application/models - schedules.php
+
+
+phpsfp - v.1.5.1 - 6 september 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/controllers - users.php
+phpsfp/application/libraries/facebook - facebook.php
+phpsfp/application/models - auth.php
+phpsfp/application/models - core.php
+phpsfp/application/models - general.php
+phpsfp/application/models - profiles.php
+phpsfp/application/views/img - active.png (new file)
+phpsfp/application/views/img - inactive.png (new file)
+phpsfp/application/views/img - idle.png (new file)
+phpsfp/application/views/img - ajax-loader-16.gif (new file)
+phpsfp/application/views/js - jquery.functions.js
+phpsfp/application/views/sections - users.php
+
+
+phpsfp - v.1.5.0 - 31 august 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/controllers - login.php
+phpsfp/application/controllers - settings.php
+phpsfp/application/libraries/facebook - facebook.php (new file)
+phpsfp/application/models - auth.php (new file)
+phpsfp/application/models - core.php
+phpsfp/application/models - email.php (new file)
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - groupsm.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+phpsfp/application/views/sections/css - main.css
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - login.php
+phpsfp/application/views/sections - schedule.php
+phpsfp/application/views/sections - settings.php
+phpsfp/application/views/sections - users.php
+phpsfp/content/ - all files
+
+
+phpsfp - v.1.4.8 - 12 july 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+phpsfp/application/views/sections - dashboard.php
+
+
+phpsfp - v.1.4.7 - 7 july 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - frame-loadrepeatpost.php
+
+
+phpsfp - v.1.4.6 - 1 july 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - profiles.php
+phpsfp/application/models - settingss.php
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections/js - main.js
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - frame-loadrepeatpost.php
+
+
+phpsfp - v.1.4.5 - 29 may 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/ - index.php
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - profiles.php
+phpsfp/application/models - settingss.php
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - schedule.php
+phpsfp/application/views/sections - settings.php
+
+
+
+phpsfp - v.1.4.4 - 10 april 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+
+
+
+phpsfp - v.1.4.3 - 5 april 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - general.php
+phpsfp/application/views/sections - frame-preview.php
+
+
+
+phpsfp - v.1.4.2 - 23 february 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/controllers - login.php
+phpsfp/application/models - core.php
+phpsfp/application/models - general.php
+
+
+
+phpsfp - v.1.4.1 - 19 february 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - general.php
+phpsfp/application/models - groupsm.php
+phpsfp/application/models - schedules.php
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - frame-loadgroup.php
+
+
+
+phpsfp - v.1.4 - 16 february 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/controllers - _construct.php
+phpsfp/application/controllers - dashboard.php
+phpsfp/application/controllers - groups.php (new file)
+phpsfp/application/models - core.php
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - groupsm.php (new file)
+phpsfp/application/models - profiles.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+phpsfp/application/views/content - picture.png (new file)
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections/_includes - header.php
+phpsfp/application/views/sections/_includes - footer.php
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - frame-loadgroup.php (new file)
+phpsfp/application/views/sections - groups.php (new file)
+phpsfp/application/views/sections - schedule.php
+phpsfp/application/views/sections - settings.php
+phpsfp/application/views/sections - users.php
+
+
+
+phpsfp - v.1.3.4 - 2 february 2014
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/views/sections - dashboard.php
+phpsfp/application/views/sections - settings.php
+
+
+
+phpsfp - v.1.3.3 - 21 december 2013
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/config - config.php
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - general.php
+
+
+
+phpsfp - v.1.3.2 - 19 december 2013
+--------------------------------------------------------------------------------
+To update from v.1.3.1 to v.1.3.2 please import the database-v.1.3.1-to-v.1.3.2.sql from the folder database-update-for-old-versions.
+For a clean install follow the documentation.
+
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/models - core.php
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections - dashboard.php
+
+
+
+phpsfp - v.1.3.1 - 16 december 2013
+--------------------------------------------------------------------------------
+To update from v.1.3 to v.1.3.1 please import the database-v.1.3-to-v.1.3.1.sql from the folder database-update-for-old-versions.
+For a clean install follow the documentation.
+
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/controllers - login.php
+phpsfp/application/controllers - schedule.php
+
+phpsfp/application/models - core.php
+phpsfp/application/models - faceboook.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+
+phpsfp/application/views/sections/css - main.css
+phpsfp/application/views/sections/js  - jquery.functions.js
+phpsfp/application/views/sections - frame-loadrepeatpost.php (new file)
+phpsfp/application/views/sections - schedule.php
+phpsfp/application/views/sections - settings.php
+
+phpsfp/content/src - base_facebook.php
+phpsfp/content/src - facebook.php
+phpsfp/content/src - fb_ca_chain_bundle.crt
+
+
+
+phpsfp - v.1.3 - 11 september 2013
+--------------------------------------------------------------------------------
+Changed files
+--------------------------------------------------------------------------------
+phpsfp/application/models - facebook.php
+
+
+
+phpsfp - v.1.3 - 8 september 2013
+--------------------------------------------------------------------------------
+
+To update from v.1.2 to v.1.3 please import the database-v.1.2-to-v.1.3.sql from the folder database-update-for-old-versions.
+For a clean install follow the documentation.
+
+Changed files
+--------------------------------------------------------------------------------
+
+phpsfp/application/controllers - schedule.php
+
+phpsfp/application/models - core.php
+phpsfp/application/models - schedules.php
+phpsfp/application/models - settingss.php
+phpsfp/application/models - facebook.php
+
+phpsfp/application/views/sections/js - jquery.functions.js
+phpsfp/application/views/sections - frame-cron-errors.php (new file)
+phpsfp/application/views/sections - frame-loadpost.php (new file)
+phpsfp/application/views/sections - schedule.php
+phpsfp/application/views/sections - settings.php
+phpsfp/application/views/sections/_includes - footer.php
+
+phpsfp/content/src - base_facebook.php
+phpsfp/content/src - facebook.php
+phpsfp/content/src - fb_ca_chain_bundle.crt

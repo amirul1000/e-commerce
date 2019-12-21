@@ -1,0 +1,458 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>phpSFP - Schedule facebook posts</title>
+    <meta name="description" content="">
+    <meta name="author" content="Litetech">
+    <meta name="copyright" content="Litetech">
+    <meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+    <meta name="date" content="2013-07-16T00:00:00+02:00">
+    <link rel="stylesheet" href="css/documenter_style.css" media="all">
+    <script src="js/jquery.1.6.4.js"></script>
+    <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script>document.createElement('section');var duration=500,easing='swing';</script>
+    <script src="js/script.js"></script>
+    <style>
+        html{background-color:#FFFFFF;color:#383838;}
+        ::-moz-selection{background:#444444;color:#DDDDDD;}
+        ::selection{background:#444444;color:#DDDDDD;}
+        #documenter_sidebar #documenter_logo{background-image:url();}
+        a{color:#0000FF;}
+        hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+        #documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+        #documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+        #documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+        #documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+        #documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+        #documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+        #documenter_copyright{display:block !important;visibility:visible !important;}
+    </style>
+
+</head>
+<body>
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ol id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#create_facebook_app">Create facebook app</a></li>
+            <li><a href="#install_and_configure_app">Install and configure app</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+            <li><a href="#thanks">Thanks</a></li>
+        </ol>
+        <div id="documenter_copyright">Copyright Litetech 2013-2017<br>
+        made with the <a href="http://rxa.li/documenter">Documenter v1.6</a>
+        </div>
+    </div>
+    <div id="documenter_content">
+    <section id="documenter_cover">
+        <h1>phpSFP - Schedule facebook posts</h1>
+        <h2>v.1.9.7</h2><hr>
+        <ul>
+            <li>Created: 07/16/2013</li>
+            <li>Last update: 11/19/2017</li>
+            <li>Litetech</li>
+        </ul>
+    </section>
+    <section id="introduction">
+        <h3>Introduction</h3><hr class="notop">
+        <p>
+            <strong>phpSFP</strong> - is a Platform where you can easily manage your scheduling for all your pages & groups in one place. It helps to send messages, ads, events, news and so on.<br />
+            It will be appreciated the ease of handles: set the post message, choose pages / groups for posting, set the start date and the time interval and your message will be displayed depending on schedule and on this way you will have more likes - clicks - friends.<br />
+            Your message will be posted according to the schedule, whether or not you are logged into your account. While you relax, your "partner" works for you. All is so easy...!
+        </p>
+        <strong>Allover Features</strong></p>
+        <ul>
+            <li>
+                <strong>Dashboard</strong>
+                <ul>
+                    <li>Check if the facebook app is valid</li>
+                    <li>Check if facebook user is logged in</li>
+                    <li>Create the post which will be sent to your selected pages/groups</li>
+                    <li>Post preview</li>
+                    <li>Post start date/time and send interval (spam protection)</li>
+                    <li>Auto-load pages/groups from facebook user</li>
+                    <li>Display total number of pages/groups</li>
+                    <li>Select all the pages/groups or a part of them for posting</li>
+                    <li>Message for post confirmation/error</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Schedules</strong>
+                <ul>
+                    <li>Filter by all schedules</li>
+                    <li>Filter by date interval</li>
+                    <li>Listing with pagination</li>
+                    <li>Token expire time &ndash; loaded via ajax (for page load performance)</li>
+                    <li>Platform user name</li>
+                    <li>Start/end date</li>
+                    <li>Posting status</li>
+                    <li>Preview the scheduled post</li>
+                    <li>Total clicks on the scheduled post and for each page/group</li>
+                    <li>Delete entire scheduled post or just a page/group</li>
+                    <li>Queue/Send/Error information to page/group from scheduled post</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Users</strong>
+                <ul>
+                    <li>Listing with pagination</li>
+                    <li>Add / Edit / Delete</li>
+                    <li>Protection - first user can't be deleted</li>
+                    <li>Last login date</li>
+                    <li>Facebook user id login restriction (new)</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Settings</strong>
+                <ul>
+                    <li>Facebook app settings (App ID , App Secret)</li>
+                    <li>Facebook users page/group limits (new)</li>
+                    <li>Posting options - Retry limit (new)</li>
+                    <li>App ID and Secret &ndash; verification</li>
+                    <li>General account settings</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Other features</strong>
+                <ul>
+                    <li>Easy to install and manage</li>
+                    <li>Multiple users with level access</li>
+                    <li>Timezone - each user can set his own timezone</li>
+                    <li>Facebook profile picture</li>
+                    <li>Modal system</li>
+                    <li>Tooltip information</li>
+                    <li>Passwords are encrypted with SHA1</li>
+                    <li>Cron system</li>
+                    <li>Redirect protection (the redirect link id is encrypted)</li>
+                    <li>Keep me logged in (login)</li>
+                    <li>Confirm delete</li>
+                    <li>Datepicker</li>
+                    <li>MVC software architecture</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="create_facebook_app">
+        <h3>Create facebook app</h3><hr class="notop">
+        <p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/WsmZMVV_YWw" frameborder="0" allowfullscreen></iframe>
+            <br/>
+            <br/>
+            At the end of this tutorial you will have the Facebook <strong>App ID</strong> and <strong>App Secret</strong> needed for phpSFP.
+        </p>
+    </section>
+    <section id="install_and_configure_app">
+        <h3>Install and configure app</h3><hr class="notop">
+        <p>
+            <strong>Step 1.</strong> Unpack the archive and upload <em><strong>phpsfp</strong></em> folder to your web server.
+        </p>
+        <p>
+            <strong>Step 2.</strong> Create a database and import <strong>database-clean-install.sql</strong> for a clean install<br /><br />
+            The following are for users who want to upgrade from one version to another.<br /><br />
+            <strong>database-v.1.6.3-to-v.1.6.5.sql</strong> update from v.1.6.3 or 1.6.4 to v.1.6.5<br />
+            <strong>database-v.1.6.1-to-v.1.6.2.sql</strong> update from v.1.6 or 1.6.1 to v.1.6.2<br />
+            <strong>database-v.1.5.5-to-v.1.6.sql</strong> update from v.1.5.5 to v.1.6<br />
+            <strong>database-v.1.5.3-to-v.1.5.4.sql</strong> update from v.1.5.3 to v.1.5.4<br />
+            <strong>database-v.1.5.0-to-v.1.5.1.sql</strong> update from v.1.5.0 to v.1.5.1<br />
+            <strong>database-v.1.4.8-to-v.1.5.0.sql</strong> update from v.1.4.8 to v.1.5.0<br />
+            <strong>database-v.1.4.5-to-v.1.4.6.sql</strong> update from v.1.4.5 to v.1.4.6<br />
+            <strong>database-v.1.4.4-to-v.1.4.5.sql</strong> update from v.1.4.4 to v.1.4.5<br />
+            <strong>database-v.1.3.4-to-v.1.4.sql</strong> update from v.1.3.4 to v.1.4<br />
+            <strong>database-v.1.3.1-to-v.1.3.2.sql</strong> update from v.1.3.1 to v.1.3.2<br />
+            <strong>database-v.1.3-to-v.1.3.1.sql</strong> update from v.1.3 to v.1.3.1<br />
+            <strong>database-v.1.2-to-v.1.3.sql</strong> update from v.1.2 to v.1.3<br />
+            <strong>database-v.1.1-to-v.1.2.sql</strong> update from v.1.1 to v.1.2<br />
+            <strong>database-v.1.0-to-v.1.1.sql</strong> update from v.1.0 to v.1.1<br />
+        </p>
+        <p>
+            <strong>Step 3.</strong> Open<strong> &quot;config.php&quot;</strong> located in <strong>phpsfp/config.php</strong> and edit this file with your settings (detailed information in file).
+        </p>
+<pre class="php">
+&lt;?php
+
+/* DATABASE SETTINGS */
+define(&quot;DB_HOSTNAME&quot;, &quot;localhost&quot;);
+define(&quot;DB_USERNAME&quot;, &quot;username&quot;);
+define(&quot;DB_PASSWORD&quot;, &quot;password&quot;);
+define(&quot;DB_NAME&quot;,     &quot;database_name&quot;);
+
+?&gt;</pre>
+        <p>
+            <strong>Step 4.</strong> Go to <strong>cpanel</strong> of your hosting and setup a <strong>cron job</strong> like in the example, change the domain.com according to your domain<br /><br />
+            <strong style="color:red;">wget -O - -q -t 1 http://your-domain.com/phpsfp/index.php/cron</strong>
+        </p>
+        <p><img alt="" src="assets/images/image_4.png"></p>
+        <p>
+            <strong>Step 5. </strong> Go to <strong>http://your-domain.com/phpsfp/</strong> and login in with user: <strong>admin</strong> and password: <strong>admin</strong>
+        </p>
+        <p>
+            <strong>Step 6. </strong> Go to <strong>Settings</strong> section and set the facebook app settings
+        </p>
+        <p><img alt="" src="assets/images/image_5.png"></p>
+        <p>
+            <strong>Step 7. (optional) </strong> Login via access token <strong><a href="http://litetech.eu/tutorials/login-via-access-token/">http://litetech.eu/tutorials/login-via-access-token/</a></strong>
+        </p>
+        <p>&nbsp;</p>
+    </section>
+    <section id="changelog">
+        <h3>Changelog</h3><hr class="notop">
+        <p><strong>v.1.9.7 - Nov 19, 2017</strong></p>
+        <ul>
+            <li>Bug fix</li>
+        </ul>
+        <p><strong>v.1.9.6 - Apr 4, 2017</strong></p>
+        <ul>
+            <li>Feature: "Login via Access Token" - display fb app name</li>
+            <li>Feature: Ability to select up to 3 images on the image type post to publish a post with multiple images</li>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+        </ul>
+        <p><strong>v.1.9.5 - Dec 18, 2016</strong></p>
+        <ul>
+            <li>Bug fix</li>
+        </ul>
+        <p><strong>v.1.9.4 - May 16, 2016</strong></p>
+        <ul>
+            <li>Bug fix</li>
+        </ul>
+        <p><strong>v.1.9.3 - Apr 18, 2016</strong></p>
+        <ul>
+            <li>Improved: Compatible with the latest Facebook Graph API v2.6</li>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+            <li>Fixed: Android device mobile error</li>
+        </ul>
+        <p><strong>v.1.9.2 - Jan 18, 2016</strong></p>
+        <ul>
+            <li>Bug fix</li>
+        </ul>
+        <p><strong>v.1.9.1 - Jan 12, 2016</strong></p>
+        <ul>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+        </ul>
+        <p><strong>v.1.9 - Jan 10, 2016</strong></p>
+        <ul>
+            <li>Feature: Access Tokens are auto-saved when using "Login via Access Token"</li>
+            <li>Feature: Configurable Auto-pause</li>
+            <li>Feature: Configurable option to allow users to create an account</li>
+            <li>Feature: Option to change the default language</li>
+            <li>Feature: Option "Import only groups I own and OPEN groups" when importing groups via HTML file</li>
+            <li>Feature: Responsive web design</li>
+            <li>Feature: New languages added: Portuguese, Spanish</li>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+        </ul>
+        <p><strong>v.1.8 - Oct 17, 2015</strong></p>
+        <ul>
+            <li>Feature: Multilanguage</li>
+            <li>Feature: Option to change the default Send interval</li>
+            <li>Improved: Compatible with the latest Facebook Graph API v2.5</li>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+        </ul>
+        <p><strong>v.1.7.1 - Jul 15, 2015</strong></p>
+        <ul>
+            <li>Feature: Import Facebook groups from file.</li>
+        </ul>
+        <p><strong>v.1.7 - Jul 13, 2015</strong></p>
+        <ul>
+            <li>Feature: Login via Access Token.</li>
+        </ul>
+        <p><strong>v.1.6.5 - Jul 12, 2015</strong></p>
+        <ul>
+            <li>Change: Facebook App API Version in the settings page.</li>
+        </ul>
+        <p><strong>v.1.6.4 - Jul 9, 2015</strong></p>
+        <ul>
+            <li>Change: Comply with Facebook terms and conditions.</li>
+        </ul>
+        <p><strong>v.1.6.3 - Jun 11, 2015</strong></p>
+        <ul>
+            <li>Change: Default Send interval 60 seconds and can vary to a range between 30-180 seconds.</li>
+            <li>Fixed: Various bug fixes</li>
+        </ul>
+        <p><strong>v.1.6.2 - May 8, 2015</strong></p>
+        <ul>
+            <li>Feature: Option to disable Random send interval time</li>
+            <li>Feature: Option to disable Allow new registered users to use their own Facebook app</li>
+            <li>Fixed: Spintax issue</li>
+        </ul>
+        <p><strong>v.1.6.1 - April 26, 2015</strong></p>
+        <ul>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.6 - April 26, 2015</strong></p>
+        <ul>
+            <li>Feature: Four types of posts: Text, Link, Image or Video</li>
+            <li>Feature: Timepicker</li>
+            <li>Feature: Clone scheduled post</li>
+            <li>Feature: Random send interval time</li>
+            <li>Feature: Add new Facebook pages/groups to the existing groups lists</li>
+            <li>Feature: Upload an image/video on scheduled post</li>
+            <li>Feature: Option to change the upload size limit</li>
+            <li>Feature: Pause or Resume the scheduled post</li>
+            <li>Feature: Filter users by active or disabled</li>
+            <li>Feature: View scheduled posts by user</li>
+            <li>Feature: Search by name/username on users section</li>
+            <li>Feature: Facebook users pages/groups individual limit</li>
+            <li>Feature: Verify email address on 'create an account' page</li>
+            <li>Feature: Delete scheduled post after it's finished posting</li>
+            <li>Feature: Facebook pages/groups ordered by name</li>
+            <li>Feature: Automatic Role Assignments for general Facebook app</li>
+            <li>Feature: Option to disable Automatic Role Assignments</li>
+            <li>Feature: Detailed Access Token informations</li>
+            <li>Feature: General Facebook app - Administrator access token informations</li>
+            <li>Improved: Latest Stable Facebook SDK for PHP (API v.2.3)</li>
+            <li>Improved: Users list display</li>
+            <li>Fixed: Internet explorer Facebook login bug</li>
+            <li>Fixed: Various bug fixes & speed improvements</li>
+        </ul>
+        <p><strong>v.1.5.6 - January 27, 2015</strong></p>
+        <ul>
+            <li>Bug fix (Facebook group error + various fixes)</li>
+        </ul>
+        <p><strong>v.1.5.5 - September 30, 2014</strong></p>
+        <ul>
+            <li>Bug fix (Error 302/500 for some Facebook accounts)</li>
+        </ul>
+        <p><strong>v.1.5.4 - September 11, 2014</strong></p>
+        <ul>
+            <li>Feature: Get permalink to a post published on user's wall, page or group</li>
+            <li>Bug fix (notice on cronjob)</li>
+        </ul>
+        <p><strong>v.1.5.3 - September 9, 2014</strong></p>
+        <ul>
+            <li>Bug fixes (server problem for some users)</li>
+        </ul>
+        <p><strong>v.1.5.2 - September 7, 2014</strong></p>
+        <ul>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.5.1 - September 6, 2014</strong></p>
+        <ul>
+            <li>Feature: Enable/Disable user</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.5.0 - August 30, 2014</strong></p>
+        <ul>
+            <li>Features: Create an account, Recover your password</li>
+            <li>Mail settings</li>
+            <li>Facebook API v2</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.8 - July 12, 2014</strong></p>
+        <ul>
+            <li>(feature) Post to Facebook user timeline</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.7 - July 7, 2014</strong></p>
+        <ul>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.6 - July 1, 2014</strong></p>
+        <ul>
+            <li>Send interval (seconds)</li>
+            <li>(feature) Repeat the post until</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.5 - May 31, 2014</strong></p>
+        <ul>
+            <li>Every user can set his own Facebook app</li>
+            <li>Added: Link to the pages/groups from the scheduled posts</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.4 - April 10, 2014</strong></p>
+        <ul>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.3 - April 5, 2014</strong></p>
+        <ul>
+            <li>
+            Spintax (Possibility to spin all the fields to post a random message every time)<br />
+            Ex: {Message1|Message2|Message3}<br />
+            An example of a tool to generate more easily the spintax <a href="http://www.getspintax.com/">http://www.getspintax.com/</a>
+            </li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.4.2 - February 23, 2014</strong></p>
+        <ul>
+            <li>Bug fix (facebook problem when posting big images https://www.facebook.com/help/347348318667793)</li>
+            <li>Bug fix (when logout - logout facebook user)</li>
+            <li>Bug fix (Message line break in facebook)</li>
+        </ul>
+        <p><strong>v.1.4.1 - February 19, 2014</strong></p>
+        <ul>
+            <li>Bug fixes (bug in groups section/dashboard)</li>
+        </ul>
+        <p><strong>v.1.4 - February 16, 2014</strong></p>
+        <ul>
+            <li>Groups section (now you can group your facebook page/groups)</li>
+            <li>Schedule posts from managed groups</li>
+            <li>Renew access token (get new token from facebook ajax request)</li>
+            <li>Timezone with DST (users needs to re-select timezone from settings)</li>
+            <li>Post large images on facebook</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.3.4 - February 2, 2014</strong></p>
+        <ul>
+            <li>The protection for the "Link" field is removed.</li>
+            <li>Tracking for clicks is disabled for the moment.</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.3.3 - December 21, 2013</strong></p>
+        <ul>
+            <li>Bug fix ('," display problem on facebook)</li>
+            <li>Bug fix (the time does not changed from the original post when re-schedule)</li>
+        </ul>
+        <p><strong>v.1.3.2 - December 19, 2013</strong></p>
+        <ul>
+            <li>Managed pages (separated list)</li>
+        </ul>
+        <p><strong>v.1.3.1 - December 16, 2013</strong></p>
+        <ul>
+            <li>Possibility to re-schedule posts</li>
+            <li>Possibility to enable or disable the tracking for clicks</li>
+            <li>Latest facebook sdk</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.3 - September 12, 2013</strong></p>
+        <ul>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.3 - September 8, 2013</strong></p>
+        <ul>
+            <li>Post as admin on managed facebook pages (beta)</li>
+            <li>Possibility to edit scheduled posts</li>
+            <li>Detailed errors on each page/group from the scheduled post</li>
+            <li>Latest facebook sdk</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.2 - July 21, 2013</strong></p>
+        <ul>
+            <li>Database error log</li>
+            <li>Timezone bug fix</li>
+        </ul>
+        <p><strong>v.1.1 - July 18, 2013</strong></p>
+        <ul>
+            <li>Facebook user id login restriction</li>
+            <li>Facebook users page/group limits</li>
+            <li>Posting options - Retry limit</li>
+            <li>Latest facebook sdk</li>
+            <li>Bug fixes</li>
+        </ul>
+        <p><strong>v.1.0 - July 16, 2013</strong></p>
+        <ul>
+            <li>Initial release</li>
+        </ul>
+        <p>&nbsp;</p>
+    </section>
+    <section id="thanks">
+        <h3>Thanks</h3><hr class="notop">
+        <h3><strong>Thanks for buying our product!</strong></h3>
+    </section>
+    </div>
+</body>
+</html>

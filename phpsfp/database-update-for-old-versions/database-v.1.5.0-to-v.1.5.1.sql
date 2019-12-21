@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `status` ENUM('0','1') NOT NULL DEFAULT '1' AFTER `access`;

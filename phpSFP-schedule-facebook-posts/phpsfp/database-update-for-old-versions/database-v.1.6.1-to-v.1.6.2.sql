@@ -1,0 +1,2 @@
+ALTER TABLE `settings_general` ADD `random_time` ENUM( '0', '1' ) NOT NULL DEFAULT '1' AFTER `role_auto`;
+ALTER TABLE `settings_general` ADD `newusers_app` ENUM( '0', '1' ) NOT NULL DEFAULT '0' AFTER `random_time`;

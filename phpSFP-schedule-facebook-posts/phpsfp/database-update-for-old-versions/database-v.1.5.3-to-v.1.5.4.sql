@@ -1,0 +1,1 @@
+ALTER TABLE `cronjobs` ADD `permalink` TEXT NOT NULL AFTER `error_log`; 

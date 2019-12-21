@@ -1,0 +1,1 @@
+ALTER TABLE `cronjobs` ADD `page_access_token` TEXT NOT NULL AFTER `id_wall`;
