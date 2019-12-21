@@ -1,7 +1,15 @@
 "# e-commerce" 
 
+E-commerce System in PHP MySQL with Source Code.Admin Section,Member Area & Front End
 
+In this video tutorial I am going to discuss about E-commerce System in PHP MySQL with Source Code.
+Here I will describe how shopping cart,Order Processing System,Admin section,Member Area and front end works.
 
+in Admin we will manage all kinds of data including products,slides,featured products,CMS and others Feartures.
+
+in Member Area How the member can login register and buy products and can see the status of their oders,delivery,cancellation,completion of their Orders.
+
+The Front end is represented to display products & its related data.
 
 
 
