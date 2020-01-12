@@ -16,7 +16,7 @@ Database : ecommerce.sql
 
 Set database credential in common/config.php
 
-and folder path (if localhost) in tempalte/header.php 
+and folder path (if localhost) in template/header.php 
 
 
 Youtube Tutorial : https://youtu.be/HPm-7UUGqtE
