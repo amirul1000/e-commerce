@@ -19,7 +19,7 @@ Set database credential in common/config.php
 and folder path (if localhost) in template/header.php 
 
 
-Youtube Tutorial : https://youtu.be/Vmm4yocSG8s
+Youtube Tutorial : https://www.youtube.com/watch?v=TQ3lt3rkPco
 
 
 Donate to Paypal : https://www.paypal.com/paypalme/patacorporation
